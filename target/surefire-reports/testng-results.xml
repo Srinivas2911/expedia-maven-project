@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="186350" started-at="2020-04-17T13:06:46Z" finished-at="2020-04-17T13:09:52Z">
+    <groups>
+      <group name="regression">
+        <method signature="FlightTest.verifyThatSameDestinationFlightsInSearchFields()[pri:0, instance:co.uk.expedia.testsuite.FlightTest@3c09711b]" name="verifyThatSameDestinationFlightsInSearchFields" class="co.uk.expedia.testsuite.FlightTest"/>
+        <method signature="LoginTest.verifyErrorMessageIsDisplayed()[pri:0, instance:co.uk.expedia.testsuite.LoginTest@5cc7c2a6]" name="verifyErrorMessageIsDisplayed" class="co.uk.expedia.testsuite.LoginTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Surefire test" duration-ms="186350" started-at="2020-04-17T13:06:46Z" finished-at="2020-04-17T13:09:52Z">
+      <class name="co.uk.expedia.testsuite.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:co.uk.expedia.testsuite.LoginTest@5cc7c2a6]" name="openBrowser" is-config="true" duration-ms="22829" started-at="2020-04-17T13:08:40Z" finished-at="2020-04-17T13:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyErrorMessageIsDisplayed()[pri:0, instance:co.uk.expedia.testsuite.LoginTest@5cc7c2a6]" name="verifyErrorMessageIsDisplayed" duration-ms="46802" started-at="2020-04-17T13:09:03Z" finished-at="2020-04-17T13:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageIsDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.uk.expedia.testsuite.LoginTest@5cc7c2a6]" name="tearDown" is-config="true" duration-ms="2696" started-at="2020-04-17T13:09:49Z" finished-at="2020-04-17T13:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.uk.expedia.testsuite.LoginTest -->
+      <class name="co.uk.expedia.testsuite.FlightTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:co.uk.expedia.testsuite.FlightTest@3c09711b]" name="openBrowser" is-config="true" duration-ms="26756" started-at="2020-04-17T13:06:46Z" finished-at="2020-04-17T13:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyThatSameDestinationFlightsInSearchFields()[pri:0, instance:co.uk.expedia.testsuite.FlightTest@3c09711b]" name="verifyThatSameDestinationFlightsInSearchFields" duration-ms="77269" started-at="2020-04-17T13:07:13Z" finished-at="2020-04-17T13:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatSameDestinationFlightsInSearchFields -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:co.uk.expedia.testsuite.FlightTest@3c09711b]" name="tearDown" is-config="true" duration-ms="9889" started-at="2020-04-17T13:08:30Z" finished-at="2020-04-17T13:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.uk.expedia.testsuite.FlightTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

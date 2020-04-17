@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Listener Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="49.097">
+  <properties />
+  
+  
+            <testcase name="verifyErrorMessageIsDisplayed" time="49.097" classname="co.uk.expedia.testsuite.LoginTest" />
+      
+</testsuite>

@@ -1,0 +1,8 @@
+co\uk\expedia\utility\Utility.class
+co\uk\expedia\loadproperty\LoadProperty.class
+co\uk\expedia\pages\FlightsPage.class
+co\uk\expedia\pages\HomePage.class
+co\uk\expedia\pages\SignInPage.class
+co\uk\expedia\basepage\BasePage.class
+co\uk\expedia\browserselector\BrowserSelector.class
+co\uk\expedia\pages\AccountPage.class
